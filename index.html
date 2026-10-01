@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow" data-publish>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Илья Карпов – актёр театра</title>
+<meta name="description" content="Илья Карпов, актёр театра. Типажи, роли, шоурил, данные для кастинга и контакты для приглашения на пробы.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="Илья Карпов – актёр театра">
+<meta property="og:description" content="Одно лицо – четыре разных человека. Роли, шоурил и данные для кастинга на одной странице.">
+<meta property="og:image" content="assets/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="assets/hero-m.webp" media="(max-width: 860px)" fetchpriority="high">
+<link rel="preload" as="image" href="assets/hero.webp" media="(min-width: 861px)" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;600;800&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 fill=%27%23102a26%27/%3E%3Crect x=%276%27 y=%2714%27 width=%2720%27 height=%274%27 fill=%27%23f0d27a%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="vibe.css">
+<style>
+  /* ---- тема «Бутылочное стекло»: глубокий зелёный + тёплый свет лампы ------ */
+  html, body { background: #102a26; }
+  .v-page {
+    --v-canvas: #102a26; --v-surface: #173832;
+    --v-ink: #ecefe8; --v-ink-soft: #a3b5ad;
+    --v-accent: #f0d27a; --v-accent-ink: #102a26;
+    --v-font-display: "Geologica", "Segoe UI", system-ui, sans-serif;
+    --v-font-text: "Geologica", "Segoe UI", system-ui, sans-serif;
+    --v-shadow-color: 3 14 12;
+    font-weight: 300;
+  }
+  .v-display { font-weight: 800; letter-spacing: -.03em; }
+  dd { margin: 0; }
+  .slot { text-decoration: underline dotted rgb(240 210 122 / .55); text-decoration-thickness: 1.5px; text-underline-offset: .2em; }
+
+  /* ---- шапка ---------------------------------------------------------------- */
+  .bar { position: fixed; inset: 0 0 auto 0; z-index: 30; display: flex; align-items: center; justify-content: space-between;
+    padding: var(--v-3) var(--v-gutter); gap: var(--v-4);
+    background: linear-gradient(to bottom, rgb(16 42 38 / .8), rgb(16 42 38 / 0)); transition: background-color .3s var(--v-ease-out); }
+  .bar.is-scrolled { background: rgb(16 42 38 / .9); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); box-shadow: 0 1px 0 var(--v-hair); }
+  .bar__name { font-weight: 600; text-decoration: none; min-height: 44px; display: inline-flex; align-items: center; }
+  .bar nav { display: flex; align-items: center; gap: var(--v-5); font-size: var(--v-t-sm); }
+  .bar nav a:not(.v-btn) { text-decoration: none; color: var(--v-ink-soft); min-height: 44px; display: inline-flex; align-items: center; }
+  .bar nav a:not(.v-btn):hover { color: var(--v-ink); }
+  @media (max-width: 760px) { .bar nav a:not(.v-btn) { display: none; } .bar .v-btn { min-height: 44px; padding: 0 1em; font-size: .8rem; } }
+
+  /* ---- 1 hero ---------------------------------------------------------------- */
+  .hero__back img { position: absolute; max-width: none; width: 116%; height: 116%; left: -8%; top: -8%; object-fit: cover; object-position: 70% 40%; }
+  .hero__shade { position: absolute; inset: 0; z-index: 2; pointer-events: none;
+    background: linear-gradient(90deg, rgb(16 42 38 / .92) 0%, rgb(16 42 38 / .55) 38%, transparent 62%),
+                linear-gradient(to top, var(--v-canvas) 0%, transparent 28%); }
+  .hero__copy { left: var(--v-gutter); top: clamp(5.5rem, 16vh, 10rem); max-width: min(40rem, 90vw); }
+  .demo-for { display: inline-flex; font-size: var(--v-t-xs); color: var(--v-ink-soft); background: rgb(23 56 50 / .85);
+    box-shadow: inset 0 0 0 1px var(--v-hair); border-radius: var(--v-radius); padding: .35em .75em; margin-bottom: var(--v-6); }
+  .v-page .hero__who { font-size: var(--v-t-base); color: var(--v-ink-soft); margin-bottom: var(--v-3); }
+  .hero__name { font-size: min(clamp(3.4rem, 1.2rem + 8vw, 9rem), 15vh); line-height: .86; letter-spacing: -.055em; }
+  @media (min-width: 861px) and (max-height: 760px) { .hero__strip { display: none; } .hero__copy { top: 4.5rem; } .demo-for { margin-bottom: var(--v-3); } .hero__lede { margin-top: var(--v-4); } .hero__cta { margin-top: var(--v-4); } }
+  .hero__name span { display: block; }
+  .v-page .hero__lede { margin-top: var(--v-6); font-size: var(--v-t-lg); line-height: 1.4; max-width: 30ch; }
+  .hero__cta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v-3) var(--v-6); margin-top: var(--v-7); }
+  .hero__cta a:not(.v-btn) { min-height: 44px; display: inline-flex; align-items: center; text-underline-offset: .3em; }
+  /* второй план: строка-диапазон внизу, едет медленнее фото */
+  .hero__strip { position: absolute; z-index: 3; left: var(--v-gutter); right: var(--v-gutter); bottom: clamp(1.5rem, 5vh, 3rem);
+    display: flex; gap: var(--v-6); font-size: var(--v-t-sm); color: var(--v-ink-soft); border-top: 1px solid var(--v-hair); padding-top: var(--v-3); }
+  .hero__strip b { color: var(--v-ink); font-weight: 600; }
+  @media (max-width: 860px) {
+    .hero__back img { object-position: 50% 30%; top: -26%; }
+    .hero__strip span:last-child { display: none; }
+    .demo-for { font-size: .7rem; }
+    .hero__shade { background: linear-gradient(to top, var(--v-canvas) 0%, rgb(16 42 38 / .85) 34%, rgb(16 42 38 / .1) 62%, transparent 100%); }
+    .hero__copy { top: auto; bottom: clamp(4.5rem, 12svh, 6rem); transform: none; right: var(--v-gutter); }
+    .hero__name { font-size: clamp(3rem, 15vw, 4.4rem); }
+    .hero__lede { font-size: var(--v-t-base); margin-top: var(--v-4); }
+    .hero__cta { margin-top: var(--v-5); }
+    .demo-for { margin-bottom: var(--v-4); }
+    .hero__strip { gap: var(--v-4); font-size: .78rem; flex-wrap: wrap; bottom: var(--v-4); }
+  }
+
+  /* ---- 2 фирменный ход «Диапазон» ----------------------------------------- */
+  .range { height: 100%; display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1fr); gap: var(--v-9); align-items: center;
+    padding: clamp(5rem, 12vh, 7rem) var(--v-gutter) clamp(2.5rem, 7vh, 4rem); }
+  .range__photos { position: relative; aspect-ratio: 3 / 4; height: min(76svh, 46rem); justify-self: end; max-width: 100%;
+    border-radius: var(--v-radius); overflow: hidden; box-shadow: var(--v-e3, 0 30px 60px rgb(0 0 0 / .4)); background: var(--v-surface); }
+  .range__photos img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+    clip-path: inset(0 100% 0 0); transition: clip-path .55s var(--v-ease-out); }
+  .range__photos img.is-on { clip-path: inset(0 0 0 0); z-index: 1; }
+  .range__photos img.is-under { clip-path: inset(0 0 0 0); transition: none; }
+  .range__cap { position: absolute; left: var(--v-4); bottom: var(--v-4); z-index: 2; font-size: var(--v-t-xs); color: var(--v-ink);
+    background: rgb(16 42 38 / .75); padding: .3em .7em; border-radius: var(--v-radius); }
+  .range__head .v-display { font-size: var(--v-t-2xl); line-height: 1.02; max-width: 14ch; }
+  .range__head p { margin-top: var(--v-4); color: var(--v-ink-soft); max-width: 38ch; }
+  .range__list { margin-top: var(--v-7); display: grid; border-top: 1px solid var(--v-hair); }
+  .range__list li { display: grid; grid-template-columns: 1fr; padding: var(--v-4) 0 var(--v-4) var(--v-5); border-bottom: 1px solid var(--v-hair); position: relative;
+    color: var(--v-ink-soft); transition: color .3s var(--v-ease-out); }
+  .range__list li::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--v-accent);
+    transform: scaleY(0); transform-origin: top; transition: transform .4s var(--v-ease-out); }
+  .range__list li b { font-size: var(--v-t-lg); font-weight: 600; }
+  .range__list li span { font-size: var(--v-t-sm); max-height: 0; overflow: hidden; opacity: 0; transition: max-height .4s var(--v-ease-out), opacity .3s; }
+  .range__list li.is-on { color: var(--v-ink); }
+  .range__list li.is-on::before { transform: scaleY(1); }
+  .range__list li.is-on span { max-height: 4em; opacity: .85; margin-top: .3em; }
+  @media (max-width: 860px) {
+    .range { grid-template-columns: 1fr; gap: var(--v-5); align-content: start; padding-top: clamp(4.5rem, 10svh, 5.5rem); }
+    .range__photos { height: 46svh; justify-self: start; }
+    .range__head .v-display { font-size: var(--v-t-xl); }
+    .range__head p { display: none; }
+    .range__list { margin-top: var(--v-4); }
+    .range__list li { padding: var(--v-2) 0 var(--v-2) var(--v-4); }
+    .range__list li b { font-size: var(--v-t-base); }
+  }
+
+  /* ---- 3 роли ---------------------------------------------------------------- */
+  .roles__head { display: flex; justify-content: space-between; align-items: end; gap: var(--v-6); flex-wrap: wrap; margin-bottom: var(--v-7); }
+  .roles__head p { color: var(--v-ink-soft); max-width: 34ch; }
+  .roles__list li { display: grid; grid-template-columns: 4.5rem minmax(0, 1.1fr) minmax(0, 1fr) minmax(0, .8fr); gap: var(--v-5); align-items: baseline;
+    padding: var(--v-5) 0; border-top: 1px solid var(--v-hair); }
+  .roles__list li:last-child { border-bottom: 1px solid var(--v-hair); }
+  .roles__list em { font-style: normal; color: var(--v-accent); font-variant-numeric: tabular-nums; }
+  .roles__list b { font-size: var(--v-t-xl); font-weight: 800; letter-spacing: -.02em; }
+  .roles__list span { color: var(--v-ink-soft); }
+  @media (max-width: 860px) {
+    .roles__list li { grid-template-columns: 3.5rem 1fr; gap: var(--v-1) var(--v-4); }
+    .roles__list li span { grid-column: 2; font-size: var(--v-t-sm); }
+    .roles__list b { font-size: var(--v-t-lg); }
+  }
+
+  /* ---- 4 шоурил ------------------------------------------------------------- */
+  .reel { position: relative; display: block; border-radius: var(--v-radius); overflow: hidden; aspect-ratio: 16 / 9; text-decoration: none; box-shadow: var(--v-e2); }
+  .reel img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--v-ease-out); }
+  .reel:hover img { transform: scale(1.02); }
+  .reel__play { position: absolute; left: clamp(1.25rem, 4vw, 3rem); bottom: clamp(1.25rem, 4vw, 3rem); z-index: 2; display: flex; align-items: center; gap: var(--v-4); }
+  .reel__play i { width: clamp(3.5rem, 6vw, 5rem); height: clamp(3.5rem, 6vw, 5rem); border-radius: 50%; background: var(--v-accent); display: grid; place-items: center; flex: none; }
+  .reel__play i::after { content: ""; border-left: 1.1rem solid var(--v-accent-ink); border-top: .7rem solid transparent; border-bottom: .7rem solid transparent; margin-left: .3rem; }
+  .reel__play b { font-size: var(--v-t-xl); font-weight: 800; letter-spacing: -.02em; display: block; }
+  .reel__play small { color: var(--v-ink); opacity: .8; font-size: var(--v-t-sm); }
+  .reel::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgb(8 22 20 / .75), transparent 55%); }
+
+  /* ---- 5 данные ------------------------------------------------------------- */
+  .data { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: var(--v-9); align-items: start; }
+  .data__fig { border-radius: var(--v-radius); overflow: hidden; aspect-ratio: 3 / 4; box-shadow: var(--v-e2); position: sticky; top: var(--v-8); }
+  .data__fig img { width: 100%; height: 100%; object-fit: cover; }
+  .data dl { display: grid; grid-template-columns: 1fr 1fr; gap: 0 var(--v-7); margin-top: var(--v-6); }
+  .data dl div { padding: var(--v-4) 0; border-top: 1px solid var(--v-hair); display: grid; gap: .25em; }
+  .data dt { font-size: var(--v-t-xs); color: var(--v-ink-soft); }
+  .data dd { font-size: var(--v-t-lg); font-weight: 400; }
+  .data dl div.wide { grid-column: 1 / -1; }
+  .v-page .data__file { margin-top: var(--v-6); font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  .data__file a { color: var(--v-ink); text-underline-offset: .25em; display: inline-flex; min-height: 44px; align-items: center; }
+  @media (max-width: 860px) {
+    .data { grid-template-columns: 1fr; gap: var(--v-6); }
+    .data__fig { position: static; aspect-ratio: 4 / 5; max-width: 22rem; }
+    .data dl { grid-template-columns: 1fr 1fr; gap: 0 var(--v-5); }
+    .data dd { font-size: var(--v-t-base); }
+  }
+
+  /* ---- 6 финал -------------------------------------------------------------- */
+  .close { min-height: 100svh; display: grid; grid-template-rows: 1fr auto; padding: clamp(6rem, 14vh, 9rem) var(--v-gutter) 0;
+    background: radial-gradient(55rem 38rem at calc(var(--v-mx, .3) * 100%) calc(var(--v-my, .4) * 100%), rgb(240 210 122 / .13), transparent 60%); }
+  .close__inner { align-self: center; display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, .7fr); gap: var(--v-9); align-items: end; padding-bottom: var(--v-9); }
+  .close h2 { font-size: clamp(2.6rem, 1rem + 6vw, 6.4rem); line-height: .95; letter-spacing: -.05em; }
+  .v-page .close__lede { margin: var(--v-7) 0 var(--v-7); font-size: var(--v-t-lg); max-width: 34ch; color: var(--v-ink-soft); }
+  .close__btn { min-height: 3.75rem; padding: 0 2em; font-size: var(--v-t-base); }
+  .close dl { display: grid; gap: var(--v-4); }
+  .close dl div { display: grid; gap: .2em; padding-top: var(--v-3); border-top: 1px solid var(--v-hair); }
+  .close dt { font-size: var(--v-t-xs); color: var(--v-ink-soft); }
+  .close dd a { text-decoration: none; font-size: var(--v-t-lg); min-height: 44px; display: inline-flex; align-items: center; }
+  .foot { display: flex; justify-content: space-between; gap: var(--v-4); flex-wrap: wrap; padding: var(--v-6) 0; border-top: 1px solid var(--v-hair); font-size: var(--v-t-xs); color: var(--v-ink-soft); }
+  @media (max-width: 860px) {
+    .close { min-height: 0; }
+    .close__inner { grid-template-columns: 1fr; gap: var(--v-7); }
+  }
+
+  a:focus-visible, .v-btn:focus-visible { outline: 2px solid var(--v-accent); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) { .range__photos img, .range__list li span, .range__list li::before { transition: none; } }
+</style>
+</head>
+<body>
+<div class="v-page">
+  <span data-v-progress></span>
+  <div class="v-grain" aria-hidden="true"></div>
+
+  <header class="bar">
+    <a class="bar__name slot" href="#top" data-slot="Имя Фамилия">Илья Карпов</a>
+    <nav aria-label="Разделы">
+      <a href="#diapazon">Типажи</a>
+      <a href="#roli">Роли</a>
+      <a href="#reel">Шоурил</a>
+      <a href="#dannye">Данные</a>
+      <a class="v-btn" href="#proby">Пригласить на пробы</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- 1 · ЛИЦО: кто это, за секунду -->
+    <section data-v-act="pin" data-v-span="1.8" data-v-drift="#102a26" aria-label="Илья Карпов, актёр театра">
+      <div data-v-stage>
+        <div class="v-layer hero__back" data-v-parallax="-0.7">
+          <picture>
+            <source media="(max-width: 860px)" srcset="assets/hero-m.webp">
+            <img src="assets/hero.webp" alt="Илья Карпов на трамвайной остановке, вечер" width="1920" height="1080" fetchpriority="high">
+          </picture>
+        </div>
+        <div class="hero__shade" aria-hidden="true"></div>
+
+        <div class="v-copy hero__copy" data-v-cue="0 0.8 0">
+          <span class="demo-for">Демо для overload224 по заказу «Сайт-визитка для актера театра»</span>
+          <p class="hero__who">Актёр театра <span class="slot" data-slot="театр">«Название театра»</span>, <span class="slot" data-slot="город">Москва</span></p>
+          <h1 class="v-display hero__name" data-v-kinetic="lines"><span class="slot" data-slot="Имя">Илья</span> <span class="slot" data-slot="Фамилия">Карпов</span></h1>
+          <p class="hero__lede">Играю людей, которых вы встречаете каждый день, – и верите им.</p>
+          <div class="hero__cta">
+            <a class="v-btn" href="#proby">Пригласить на пробы</a>
+            <a href="#reel">Смотреть шоурил</a>
+          </div>
+        </div>
+
+        <div class="hero__strip" data-v-parallax="-0.25" aria-label="Коротко">
+          <span>Игровой возраст <b class="slot" data-slot="игровой-возраст">27–35</b></span>
+          <span>Рост <b class="slot" data-slot="рост">182</b></span>
+          <span class="slot" data-slot="голос">Баритон</span>
+          <span><span class="slot" data-slot="образование">Мастерская Фамилии</span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 · ДИАПАЗОН (фирменный ход): одно лицо, четыре человека -->
+    <section data-v-act="pin" data-v-span="3" data-v-drift="#0e2622" id="diapazon" aria-label="Типажи">
+      <div data-v-stage>
+        <div class="range">
+          <div class="range__photos" aria-hidden="true">
+            <img src="assets/t1.webp" alt="" width="1000" height="1333" loading="lazy" decoding="async" class="is-on">
+            <img src="assets/t2.webp" alt="" width="1000" height="1333" loading="lazy" decoding="async">
+            <img src="assets/t3.webp" alt="" width="1000" height="1333" loading="lazy" decoding="async">
+            <img src="assets/t4.webp" alt="" width="1000" height="1333" loading="lazy" decoding="async">
+            <span class="range__cap">Фото-пробы, без грима</span>
+          </div>
+          <div class="range__head">
+            <h2 class="v-display">Одно лицо&nbsp;– четыре разных человека</h2>
+            <p>Кастингу нужен не «красивый актёр», а тот, кому поверят в роли. Листайте – лицо одно, люди разные.</p>
+            <ol class="range__list">
+              <li class="is-on"><b>Следователь</b><span>Устал, никому не верит, но дожмёт.</span></li>
+              <li><b>Сельский врач</b><span>Мягкий, неловкий, держится на чувстве долга.</span></li>
+              <li><b>Бригадир</b><span>Короткие фразы, тяжёлый взгляд, свой среди своих.</span></li>
+              <li><b>Чиновник</b><span>Вежлив, застёгнут на все пуговицы, холоден.</span></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 · РОЛИ -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#102a26" id="roli" aria-label="Роли">
+      <div class="v-wrap">
+        <div class="roles__head" data-v-in data-v-stagger="60">
+          <h2 class="v-display v-display--lg">Роли</h2>
+          <p>Репертуар театра <span class="slot" data-slot="театр">«Название театра»</span> и проекты на стороне.</p>
+        </div>
+        <ul class="roles__list" data-v-in data-v-stagger="70">
+          <li><em class="slot" data-slot="год-1">2025</em><b class="slot" data-slot="роль-1">Тузенбах</b><span><span class="slot" data-slot="спектакль-1">«Три сестры»</span></span><span>реж. <span class="slot" data-slot="режиссёр-1">Фамилия</span></span></li>
+          <li><em class="slot" data-slot="год-2">2024</em><b class="slot" data-slot="роль-2">Подколёсин</b><span><span class="slot" data-slot="спектакль-2">«Женитьба»</span></span><span>реж. <span class="slot" data-slot="режиссёр-2">Фамилия</span></span></li>
+          <li><em class="slot" data-slot="год-3">2023</em><b class="slot" data-slot="роль-3">Глумов</b><span><span class="slot" data-slot="спектакль-3">«На всякого мудреца довольно простоты»</span></span><span>реж. <span class="slot" data-slot="режиссёр-3">Фамилия</span></span></li>
+          <li><em class="slot" data-slot="год-4">2022</em><b class="slot" data-slot="роль-4">Раскольников</b><span><span class="slot" data-slot="спектакль-4">«Преступление и наказание»</span></span><span>реж. <span class="slot" data-slot="режиссёр-4">Фамилия</span></span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4 · ШОУРИЛ -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#0e2622" id="reel" aria-label="Шоурил">
+      <div class="v-wrap">
+        <a class="reel" href="{{ссылка-шоурил}}" rel="noopener" data-v-reveal="up" data-v-reveal-at="0.1 0.45">
+          <img src="assets/reel.webp" alt="Кадр из шоурила: Илья на кухне ночью" width="1600" height="900" loading="lazy" decoding="async">
+          <span class="reel__play"><i aria-hidden="true"></i><span><b>Шоурил</b><small>сцены из спектаклей и короткого метра, <span class="slot" data-slot="длительность">2 минуты</span></small></span></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- 5 · ДАННЫЕ ДЛЯ КАСТИНГА -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#102a26" id="dannye" aria-label="Данные для кастинга">
+      <div class="v-wrap data">
+        <figure class="data__fig" data-v-reveal="left" data-v-reveal-at="0.1 0.45">
+          <img src="assets/head.webp" alt="Портрет Ильи Карпова для кастинга" width="1000" height="1333" loading="lazy" decoding="async">
+        </figure>
+        <div data-v-in data-v-stagger="50">
+          <h2 class="v-display v-display--lg">Для кастинга</h2>
+          <dl>
+            <div><dt>Игровой возраст</dt><dd class="slot" data-slot="игровой-возраст">27–35</dd></div>
+            <div><dt>Рост</dt><dd class="slot" data-slot="рост">182 см</dd></div>
+            <div><dt>Глаза</dt><dd class="slot" data-slot="глаза">серо-голубые</dd></div>
+            <div><dt>Волосы</dt><dd class="slot" data-slot="волосы">русые</dd></div>
+            <div><dt>Голос</dt><dd class="slot" data-slot="голос">баритон</dd></div>
+            <div><dt>Языки</dt><dd class="slot" data-slot="языки">английский B2</dd></div>
+            <div class="wide"><dt>Навыки</dt><dd class="slot" data-slot="навыки">сценическое фехтование, гитара, вождение (B), верховая езда</dd></div>
+            <div class="wide"><dt>Образование</dt><dd class="slot" data-slot="образование">театральный вуз, мастерская Фамилии, год выпуска</dd></div>
+          </dl>
+          <p class="data__file">Все фото в полном размере: <a class="slot" href="{{ссылка-фото-архив}}" rel="noopener" data-slot="ссылка-фото-архив">папка для кастинг-директора</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 · ДЕЙСТВИЕ -->
+    <section data-v-act="flow" data-v-drift="#102a26" id="proby" aria-label="Пригласить на пробы">
+      <div class="close" data-v-spotlight>
+        <div class="close__inner">
+          <div data-v-in data-v-stagger="80">
+            <h2 class="v-display">Пригласить на пробы</h2>
+            <p class="close__lede">Пришлите сценарий или пару сцен – отвечу в течение дня и приду на пробы подготовленным.</p>
+            <a class="v-btn close__btn" href="{{ссылка-связи}}" rel="noopener" data-v-magnet="0.2">Пригласить на пробы</a>
+          </div>
+          <dl data-v-in data-v-stagger="60">
+            <div><dt>Telegram</dt><dd><a class="slot" href="{{ссылка-связи}}" rel="noopener" data-slot="ссылка-связи">@login</a></dd></div>
+            <div><dt>Телефон</dt><dd><a class="slot" href="tel:{{телефон}}" data-slot="телефон">+7 900 000-00-00</a></dd></div>
+            <div><dt>Почта</dt><dd><a class="slot" href="mailto:{{почта}}" data-slot="почта">mail@example.ru</a></dd></div>
+          </dl>
+        </div>
+        <footer class="foot">
+          <span class="slot" data-slot="Имя Фамилия">Илья Карпов</span>
+          <span>Демо-проект: имя, роли и фото вымышленные</span>
+        </footer>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script src="vibe.js"></script>
+<script>
+  if (matchMedia('(max-width: 860px)').matches) {
+    document.querySelector('#diapazon').setAttribute('data-v-span', '3.2');
+  }
+  Vibe.mount(document.querySelector('.v-page'));
+
+  (function () {
+    var bar = document.querySelector('.bar'), on = null;
+    function tick() { var s = window.scrollY > 40; if (s !== on) { on = s; bar.classList.toggle('is-scrolled', s); } }
+    window.addEventListener('scroll', tick, { passive: true }); tick();
+  })();
+
+  // Фирменный ход: по прогрессу акта меняется типаж – новое фото «въезжает» склейкой поверх старого.
+  (function () {
+    var act = document.getElementById('diapazon');
+    var imgs = act.querySelectorAll('.range__photos img'), items = act.querySelectorAll('.range__list li');
+    var cur = 0, live = false;
+    function tick() {
+      var p = parseFloat(getComputedStyle(act).getPropertyValue('--v-p')) || 0;
+      var n = Math.min(imgs.length - 1, Math.floor(p * imgs.length * 0.999));
+      if (n !== cur) {
+        imgs.forEach(function (im, i) { im.classList.remove('is-on', 'is-under'); if (i === cur) im.classList.add('is-under'); });
+        imgs[n].classList.add('is-on');
+        items.forEach(function (it, i) { it.classList.toggle('is-on', i === n); });
+        cur = n;
+      }
+      if (live) requestAnimationFrame(tick);
+    }
+    new IntersectionObserver(function (es) { live = es[0].isIntersecting; if (live) tick(); }).observe(act);
+  })();
+</script>
+</body>
+</html>
